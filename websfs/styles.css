@@ -6,7 +6,7 @@
 }
 body{
     min-height: 100vh;
-    background-color: rgb(249, 226, 198);
+    background-color: rgb(202, 209, 131);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -17,8 +17,8 @@ body{
     align-items: center;
     justify-content: center;
     gap: 1em;
-    color:rgb(209, 13, 13) ;
-    background-color: rgba(211, 131, 46, 0.297);
+    color:rgb(123, 4, 73) ;
+    background-color:  rgba(3, 1, 0, 0.074);
     border-radius: 2em;
     padding: 4em 3em;
 }
@@ -27,7 +27,7 @@ body{
 }
 hr{
     width:100%;
-    background-color:rgb(209, 13, 13);
+    background-color:rgb(130, 8, 79);
     height: 5px;
     border-radius: 1em;
     border: none;
@@ -46,10 +46,16 @@ button{
     letter-spacing: 1px;
     padding: 0.5em 1.5em;
     border-radius: 0.5em;
-    color: rgb(229, 136, 30);
+    color:  rgb(202, 209, 131);
     cursor: pointer;
     transition: 0.2s ease-in-out;
 }
 button:hover{
     transform: translateY(-10px);
 }
+#start{
+    background-color:rgb(130, 8, 79);}
+#stop{
+    background-color: rgb(130, 8, 79);}
+#reset{
+    background-color:rgb(130, 8, 79);}
